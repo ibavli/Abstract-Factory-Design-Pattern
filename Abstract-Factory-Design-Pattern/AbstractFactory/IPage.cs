@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abstract_Factory_Design_Pattern
+namespace Abstract_Factory_Design_Pattern.AbstractFactory
 {
-    class Program
+    public interface IPage
     {
-        static void Main(string[] args)
-        {
-
-        }
+        void BuildPage();
     }
 }

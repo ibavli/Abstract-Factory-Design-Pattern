@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\AbstractGenerateScreen.cs" />
+    <Compile Include="AbstractFactory\IComponent.cs" />
+    <Compile Include="AbstractFactory\IPage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
