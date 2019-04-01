@@ -46,6 +46,7 @@
     <Compile Include="AbstractFactory\AbstractGenerateScreen.cs" />
     <Compile Include="AbstractFactory\GenerateWebScreen.cs" />
     <Compile Include="AbstractFactory\GenerateWinFormScreen.cs" />
+    <Compile Include="AbstractFactory\GenerateXScreen.cs" />
     <Compile Include="AbstractFactory\IComponent.cs" />
     <Compile Include="AbstractFactory\IPage.cs" />
     <Compile Include="Program.cs" />
@@ -54,6 +55,8 @@
     <Compile Include="WebScreenGenerate\WebPage.cs" />
     <Compile Include="WinFormScreenGenerate\WinForm.cs" />
     <Compile Include="WinFormScreenGenerate\WinFormComponent.cs" />
+    <Compile Include="XScreenGenerate\XComponent.cs" />
+    <Compile Include="XScreenGenerate\XPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

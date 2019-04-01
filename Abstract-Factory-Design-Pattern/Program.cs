@@ -23,6 +23,14 @@ namespace Abstract_Factory_Design_Pattern
             winForm.BuildPage();
             IComponent winFormComponent = screenGenerator.CreateComponent();
             winFormComponent.BuildComponent();
+
+            Console.WriteLine("\n\n");
+            screenGenerator = new GenerateXScreen();
+            IPage xPage = screenGenerator.CreatePage();
+            xPage.BuildPage();
+            IComponent xComponent = screenGenerator.CreateComponent();
+            xComponent.BuildComponent();
+
             Console.ReadLine();
         }
     }
