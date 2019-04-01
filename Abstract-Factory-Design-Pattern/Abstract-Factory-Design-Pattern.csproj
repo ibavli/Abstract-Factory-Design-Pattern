@@ -44,10 +44,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactory\AbstractGenerateScreen.cs" />
+    <Compile Include="AbstractFactory\GenerateWebScreen.cs" />
+    <Compile Include="AbstractFactory\GenerateWinFormScreen.cs" />
     <Compile Include="AbstractFactory\IComponent.cs" />
     <Compile Include="AbstractFactory\IPage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebScreenGenerate\WebComponent.cs" />
+    <Compile Include="WebScreenGenerate\WebPage.cs" />
+    <Compile Include="WinFormScreenGenerate\WinForm.cs" />
+    <Compile Include="WinFormScreenGenerate\WinFormComponent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
